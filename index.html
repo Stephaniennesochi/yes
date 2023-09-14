@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!--remixicons link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--Google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <a href="#" class= "logo"> Developer <span>X.</span></a>
+        <ul class="navlist">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Social accounts</a></li>
+        </ul>
+        <div class="top-btnn">
+            <a href="#" class="h-btn">Contact me</a>
+        </div>
+    </header>
+
+    <!--hero-->
+    <section class="hero">
+        <div class="main-content">
+            <h4>
+                Hi, There!
+            </h4>
+            <h2>I'm <span class="input"> </span></h2>
+            <p>I am a full Stack developer, Data Scientist, Graphic Designer and Data Entry Specialist.
+                I use html, css, bootstrap and Javascript to develop websites. I also work with python 
+                and Nodejs for backend, app and game development. I use frameworks such as react and django.
+                I also use databases such as MySQL and Mongo Db to store data. I use corel draw and canva
+                for designing flyers, banners etc. I use microsoft offices such as microsoft word, microsoft excel,
+                microsoft powerpoint for data entry jobs.
+            </p>
+                 <div class="social">
+                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="#"><i class="ri-github-fill"></i></a>
+                    <a href="#"><i class="ri-medium-fill"></i></a>
+                    <a href="#"><i class="ri-codepen-line"></i></a>
+                 </div>
+
+                 <div class="main-btnn">
+                    <a href="#" class="btn">Hire me</a>
+                    <a href="#" class="btn btn2">Download Resume</a>
+                 </div>
+
+                 <div class="bottom">
+                     <p>Copyright 2023 - Made by Stephanie Nnesochi</p>
+                 </div>
+        </div>
+    </section>
+
+    <!--js link-->
+    <script src="./index.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:["Stephanie Nnesochi", " a Full Stack Developer", "a Data Scientist", "a Graphic Designer"," a Data Entry Specialist"],
+            typeSpeed:70,
+            backSpeed:65,
+            loop:true
+        })
+    </script>
+</body>
+</html>
